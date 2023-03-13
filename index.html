@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Webcam</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <style>
+            body {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <video></video>
+        <div id="drag"></div>
+        <div id="controls">
+            <button onclick="setScale(1)">1</button>
+            <button onclick="setScale(1.5)">1.5</button>
+            <button onclick="setScale(2)">2</button>
+            <button onclick="setScale(2.5)">2.5</button>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>

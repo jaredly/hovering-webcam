@@ -1,0 +1,20 @@
+{
+    "name": "hovering-webcam",
+    "version": "1.0.0",
+    "description": "Your face, on your screen.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager ./ HoveringWebcam --out /Applications/WebcamViewer --overwrite"
+    },
+    "repository": "https://github.com/jaredly/hovering-webcam",
+    "author": "Jared Forsyth",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "*",
+        "electron-packager": "*"
+    },
+    "build": {
+        "appId": "com.jaredforsyth.webcam"
+    }
+}

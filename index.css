@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+video {
+    width: 100vw;
+    object-fit: cover;
+    height: 100vh;
+    transform: scaleX(-1);
+}
+#drag {
+    -webkit-app-region: drag;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+}
+button {
+    cursor: pointer;
+}
+#controls {
+    position: absolute;
+    bottom: 3px;
+    opacity: 0;
+    left: 3px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: opacity .1s ease;
+}
+#controls:hover {
+    opacity: 1;
+}
